@@ -187,7 +187,6 @@ if __name__ == "__main__":
                 speak("According to Wikipedia")
                 print(summary)
                 speak(summary)
-                break
             except wikipedia.exceptions.DisambiguationError as e:
                 speak("There are multiple results for this topic. Please be more specific.")
             except wikipedia.exceptions.PageError:
