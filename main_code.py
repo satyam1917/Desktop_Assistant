@@ -57,8 +57,6 @@ def takecommand():
 def play_music():
     speak("Which song would you like to play?")
     song = takecommand()
-    if song == "none":
-        return
     webbrowser.open(f"https://music.youtube.com/search?q={song}")
     speak(f"Playing {song} on YouTube Music")
 
