@@ -233,6 +233,7 @@ if __name__ == "__main__":
             joke = tell_joke()
             print(joke)
             speak(joke)
+            speak("Ha Ha Ha")
         elif 'play' in query or 'game' in query:   
             speak("Which game would you like to play: tic tac toe or rock paper scissors? Enter 1 for tic tac toe and 2 for rock paper scissors.")
             game_choice = input("Enter 1 for tic tac toe and 2 for rock paper scissors or  0 to exit: ")
